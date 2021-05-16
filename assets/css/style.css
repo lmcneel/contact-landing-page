@@ -149,6 +149,10 @@ a:hover {
   padding: 1rem;
 }
 
+.padding-right-1 {
+  padding-right: 1rem;
+}
+
 /********************* Box Styles **********************/
 
 .border-primary-4 {
