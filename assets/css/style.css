@@ -1,0 +1,131 @@
+:root {
+  --primary: #4F4D8C;
+  --secondary: #2E4159;
+  --primary-light: #8F8EBF;
+  --black: #262626;
+  --white: #f0f0f0;
+}
+
+/********************* Default styles **********************/
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+/********************* Colors **********************/
+
+.primary {
+  color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.black {
+  color: var(--black);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+/********************* Typography Styles **********************/
+
+.text-center {
+  text-align: center;
+}
+
+/********************* Position Styles **********************/
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+/********************* Display Styles **********************/
+.inline-block {
+  display: inline-block;
+}
+
+/********************* Display -- Flex Styles **********************/
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/********************* Sizing Styles **********************/
+
+.width-1 {
+  width: 1rem;
+}
+
+.height-1 {
+  height: 1rem;
+}
+
+/********************* Spacing Styles **********************/
+
+.margin-1 {
+  margin: 1rem;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+/********************* Box Styles **********************/
+
+.box-shadow-dark-y-1 {
+  box-shadow: 0rem .25rem .25rem rgba(0,0,0, .5);
+}
