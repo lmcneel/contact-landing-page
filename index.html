@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body class="flex flex-column justify-content-between">
-        <header class="fix top left flex justify-content-end padding-1 bg-black white box-shadow-dark-y-1">
+        <header class="fixed top left flex justify-content-end padding-1 bg-black white box-shadow-dark-y-1 width-full">
             <nav>
                 <ul class="flex">
                     <li class="padding-1">
@@ -72,7 +72,8 @@
                 </ul>
             </nav>
         </header>
-        <section>
+        <!-- Hero Section -->
+        <section class="margin-top-6">
           <h1 class="text-center">Freelancer Contact Page</h1>
           <div class="hero text-center">
             <figure class="margin-1">
@@ -80,6 +81,21 @@
               <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nisi facere incidunt molestias nihil. Sit ratione cumque asperiores blanditiis ut veritatis officia exercitationem, minus, necessitatibus libero hic illo totam sed.</figcaption>
             </figure>
           </div>
+        </section>
+        <!-- Contact Form -->
+        <section id="contact" class="bg-secondary white padding-1 text-center">
+          <h2>Contact us!</h2>
+          <form class="border-white-4 border-radius-1 max-width-30 margin-auto-1 padding-1">
+            <div class="margin-1">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" />
+            </div>
+            <div class="margin-1">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="youremail@domain.com" />
+            </div>
+            <button type="button" class="bg-primary border-white-4 padding-1 white">Send!</button>
+          </form>
         </section>
         <footer class="text-center bg-primary white padding-1">
           &copy; 2021 Latisha McNeel

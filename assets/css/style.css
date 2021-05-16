@@ -20,6 +20,10 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.75rem;
+}
+
 a {
   color: var(--white);
   text-decoration: none;
@@ -115,14 +119,30 @@ a:hover {
   width: 1rem;
 }
 
+.width-full {
+  width: 100vw;
+}
+
+.max-width-30 {
+  max-width: 30vw;
+}
+
 .height-1 {
   height: 1rem;
 }
 
 /********************* Spacing Styles **********************/
 
+.margin-auto-1 {
+  margin: 1rem auto;
+}
+
 .margin-1 {
   margin: 1rem;
+}
+
+.margin-top-6 {
+  margin-top: 6rem;
 }
 
 .padding-1 {
@@ -135,8 +155,17 @@ a:hover {
   border: .25rem solid var(--primary);
 }
 
+.border-white-4 {
+  border: .25rem solid var(--white);
+}
+
+
 .outline-black-4 {
   outline: .25rem solid var(--black);
+}
+
+.border-radius-1 {
+  border-radius: .25rem;
 }
 
 .box-shadow-dark-y-1 {
