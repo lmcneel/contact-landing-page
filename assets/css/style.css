@@ -1,3 +1,7 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 :root {
   --primary: #4F4D8C;
   --secondary: #2E4159;
@@ -7,12 +11,13 @@
 }
 
 /********************* Default styles **********************/
-* {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 body {
   min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 a {
@@ -125,6 +130,14 @@ a:hover {
 }
 
 /********************* Box Styles **********************/
+
+.border-primary-4 {
+  border: .25rem solid var(--primary);
+}
+
+.outline-black-4 {
+  outline: .25rem solid var(--black);
+}
 
 .box-shadow-dark-y-1 {
   box-shadow: 0rem .25rem .25rem rgba(0,0,0, .5);
